@@ -1,0 +1,140 @@
+body {
+    font-family: "Merriweather Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.frist-nav {
+    width: 100%;
+    height: 50px;
+    background-color: #272a20;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.frist-nav span {
+    margin: 0 5px;
+    font-weight: 400;
+}
+.frist-nav span i {
+    color: #9ac92f;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 25px 0px;
+    width: 100%;
+    height: 100px;
+    font-size: 1.1rem;
+    background-color: rgb(237, 235, 235);
+    color: black;
+}
+.nav img {
+    width: 200px;    
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav ul a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.nav ul a:hover {
+    color: #9ac92f;
+}
+
+.extra-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.nav .extra-nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #9ac92f;
+    padding: 13px 40px;
+    font-size: 13px;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    border-radius: 8px 8px ;
+}
+.nav .extra-nav a:hover {
+    color: white;
+    background-color: #575a4f;
+}
+
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/slide8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.content .img {
+    width: 100%;
+}
+.content .img img{
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+.content .text {
+    align-items: center;
+    position: relative;
+    bottom: 30%;
+    right: 10%;
+    text-align: start;
+}
+.content .text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+.content .text p {
+    color: white;
+    width: 60%;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.content .btn {
+    display: flex;
+    align-items: center;
+} 
+.content .btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #9ac92f;
+    padding: 12px 50px;
+    font-size: 17px;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px 5px;
+    margin-left: 50px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+
+.content .btn  a:hover {
+    background-color: #575a4f;
+}
